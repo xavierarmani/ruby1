@@ -1,5 +1,5 @@
 # Author: Xavier Maldonado
-# Week 4: assignment number 1
+# Week 4: Assignment 1
 puts "Welcome to the calculator!"
 puts "*" * 35
 
@@ -10,4 +10,4 @@ second = gets.chomp.to_i
 result = first * second
 
 puts "*" * 35
-puts "The Calculated result is: #{result} units"
+puts "The calculated result is: #{result} units"
