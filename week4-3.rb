@@ -3,7 +3,9 @@
 
 list = {'Billy' => 'Nice', 'Bobby' => 'Naughty', 'Jill' => 'Nice'}
 
+puts "*"*25
 puts "Welcome to Santas List"
+puts "*"*25
 puts "Usage: Enter 'S' to search of a child, 'L' to List all childeren, 'A' to
     add a child to the list or 'Q' to Quit"
 print "Enter Command: "
@@ -38,7 +40,7 @@ while command != 'Q'
     child = gets.chomp.split(/ |\_/).map(&:capitalize).join(" ")
 
     if value = list[child]
-      puts "#{child}, #{value}"
+      puts "#{child} has been #{value}."
     else
       puts "Error, #{child} was not found!"
     end

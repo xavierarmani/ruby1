@@ -7,7 +7,11 @@ print "Please enter the first integer: "
 first = gets.chomp.to_i
 print "Please enter the second integer: "
 second = gets.chomp.to_i
-result = first * second
+sum = first + second
+differnce = first - second
+product = first * second
 
 puts "*" * 35
-puts "The calculated result is: #{result} units"
+puts "The calculated sum is: #{sum} "
+puts "The calculated differnce is: #{differnce} "
+puts "The calculated product is: #{product} "
